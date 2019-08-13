@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+    <RootNamespace>SuS.Domain</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Sus.Domain.Test\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Sus.Domain.Test\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Sus.Domain.Test\**" />
+  </ItemGroup>
+</Project>
